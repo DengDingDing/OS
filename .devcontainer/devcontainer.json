@@ -1,0 +1,10 @@
+{
+    "name": "RISC-V Toolchain",
+    "image": "pwn2de4d/riscv-toolchain:latest",
+    "runArgs": [
+        "--name",
+        "riscv-toolchain",
+        "-it"
+    ],
+    "postCreateCommand": "echo 'Container started!'"
+}
